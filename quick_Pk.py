@@ -52,7 +52,7 @@ f_out=snapshot+'_powerspec_all.dat'
 
 f1=open(f_out,'w')
 for i in range(len(k)):
-    f1.write(str(k[i])+' '+str(Pk0[i])+' '+str(Pk2[i])+' '+str(Pk4[i])+' '+str(Nmodes[i])+'\n')
+    f1.write(str(k[i])+' '+str(Pk0[i])+' '+str(Nmodes[i])+'\n')
 
 f1.close()
 
@@ -94,7 +94,7 @@ if len(ptypes) > 1:
         
         f1=open(f_out,'w')
         for i in range(len(k)):
-            f1.write(str(k[i])+' '+str(Pk0[i])+' '+str(Pk2[i])+' '+str(Pk4[i])+' '+str(Nmodes[i])+'\n')
+            f1.write(str(k[i])+' '+str(Pk0[i])+' '+str(Nmodes[i])+'\n')
 
         f1.close()
             
