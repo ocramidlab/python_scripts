@@ -29,7 +29,8 @@ Nmodes = CF.Nmodes3D #number of modes
 
 plt.plot(r, xi0)
 plt.yscale('log')
-plt.xscale('log')
+plt.xscale('linear')
+plt.xlim(0,150)
 plt.title('Correlation Function')
 
 #plt.show()
